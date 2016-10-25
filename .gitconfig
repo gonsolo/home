@@ -1,0 +1,14 @@
+[alias]
+s = status
+l = log
+c = commit
+ca = commit -a
+d = diff
+[user]
+email = gonsolo@gmail.com
+name = Gon Solo
+[push]
+default = simple
+[credential]
+helper = cache --timeout=3600
+
